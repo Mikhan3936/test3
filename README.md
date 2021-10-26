@@ -9,7 +9,7 @@
 Список классов, используемых в модуле
 -------------------------------------
 
-#. Общий класс
+#.Общий класс
     :: 
 
     class fig():
@@ -101,15 +101,4 @@
     #.
     #.
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
 
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
