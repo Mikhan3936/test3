@@ -39,8 +39,8 @@ class fig():
             self.width = 0
         elif isinstance(self, pyramid):
             # сложно - используем 4х стороннюю пирамиду
-            
-            pass
+            self.length = x
+            self.height = 0
         elif isinstance(self, cylinder):
             self.radius = x
             self.height = 0
