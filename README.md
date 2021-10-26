@@ -9,7 +9,7 @@
 Список классов, используемых в модуле
 -------------------------------------
 
-##.Общий класс
+- ## Общий класс
    ```python 
 
     class fig():
@@ -62,8 +62,8 @@
     def color(self, color = 'red'):
         self.__color = color
     ```
-    #. Образованный от него класс для расчета квадратов
-     :: 
+    - ## Образованный от него класс для расчета квадратов
+    ```python 
     class kvadrat(fig):
     arg = 1
     def __init__(self, x):
@@ -75,9 +75,9 @@
         
     def square(self) -> float:
         return self.length ** 2
-
-    #. Образованный от него класс для расчета прямоугольников
-     :: 
+   ```
+    - ## Образованный от него класс для расчета прямоугольников
+     ```python
 
     class rectangle(fig):
     arg = 2
@@ -91,6 +91,7 @@
         print("Сторона2")
     def square(self) -> float:
         return self.length * self.height
+    ```
     #.
     #.
     #.
